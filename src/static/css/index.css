@@ -1,0 +1,68 @@
+#root .page{
+    min-height: 100vh;
+}
+/*<576px*/
+.wrap{
+    margin:0 5px;
+}
+#header{
+    padding: 0;
+}
+#heade .antd-menu{
+    line-height: 64px;
+}
+
+#footer{
+    padding: 24px 0;
+}
+.logo{
+    margin: 0;
+    text-align: center;
+}
+.wrap .topics_list{
+    background:#fff;
+    padding: 0 15px;
+}
+.index_nav{
+    margin-top: 0 5px;
+}
+/*>=576px*/
+@media all and (min-width:576px){
+    .wrap{
+        margin:0 10px;
+    }
+}
+/*>=768px*/
+@media all and (min-width:768px){
+    .wrap{
+        margin:0 15px;
+    }
+    .wrap .topics_list{
+        background:#fff;
+        padding: 0 20px;
+    }
+}
+/*>=992px*/
+@media all and (min-width:992px){
+    .wrap{
+        margin:0 20px;
+    }
+    
+}
+/*>=1200px*/
+@media all and (min-width:1200px){
+    .wrap{
+        margin:0 auto;
+        width: 980px;
+    }
+    .wrap .topics_list{
+        background:#fff;
+        padding: 0 30px;
+    }
+}
+/*>=1600px*/
+@media all and (min-width:1600px){
+    .wrap{
+        width: 1200px;
+    }
+}
