@@ -22,14 +22,14 @@ const route=[
         }
     },
     {
-        path:'/topics:id',
+        path:'/topics/:id',
         exact:true,
         render(props){
             return <TopicPage {...props} />
         }
     },
         {
-            path:'/user:username',
+            path:'/user/:loginname',
             exact:true,
             render(props){
                 return <UserPage {...props} />

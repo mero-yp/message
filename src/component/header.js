@@ -17,7 +17,7 @@ function Header(){
             sm={4}
             md={2}
             >
-                <h1 className="logo"><Link>logo</Link></h1>
+                <h1 className="logo"><Link to="/">logo</Link></h1>
             </Col>
             <Col 
             xs={18}

@@ -10,6 +10,7 @@ function IndexNav(){
     return (<Menu
         mode={"horizontal"}
         defaultSelectedKeys={[activeIndex+'']}
+        defaultSelectedKeys={[activeIndex+'']}
         className="index_nav"
     >
         {indexNav.map((item,index)=>{

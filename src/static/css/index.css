@@ -1,3 +1,7 @@
+img{
+    max-width: 100%;
+}
+
 #root .page{
     min-height: 100vh;
 }
@@ -23,8 +27,32 @@
     background:#fff;
     padding: 0 15px;
 }
+.topic-tag{
+    margin: 0 5px;
+}
+.from_now{
+    text-align: right;
+}
+.index-pagination {
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 5px; 
+    background: #fff;
+    display: flex;
+}
+.index-pagination>ul{
+    margin: auto;
+}
+#topic .ant-card{
+    margin-top: 10px; ;
+} 
 .index_nav{
     margin-top: 0 5px;
+}
+.user_page .ant-card{
+    margin-top: 10px;
+}
+.user-details {
+    text-align: center;
 }
 /*>=576px*/
 @media all and (min-width:576px){
@@ -32,6 +60,7 @@
         margin:0 10px;
     }
 }
+
 /*>=768px*/
 @media all and (min-width:768px){
     .wrap{

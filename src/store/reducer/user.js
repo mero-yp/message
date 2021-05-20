@@ -1,20 +1,20 @@
-export default function topics(topics={
+export default function user(user={
     loading:true,
-    data:[]
+    data:{}
 },action){
     switch (action.type) {
-        case "topics_loading":
+        case "user_loading":
             return{
                 loading:true,
-                data:[]
+                data:{}
             }
-        case "topics_loadover" :
+        case "user_loadover" :
             return{
                 loading:false,
                 data:action.data
             }
         default:
-            return topics;
+            return user;
     }
    
 }
